@@ -37,8 +37,5 @@ with col2:
     st.image(image,width=280,caption='2022 EMADT Violin Graduation')
 
 
-with col3:
-    image = Image.open('Main_Photor2.jpg')
-    st.image(image,width=280,caption='2022 EMADT - 1st Place in the classl')
 
     
