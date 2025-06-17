@@ -12,7 +12,7 @@ col1, col2, col3 = st.columns([2, 1, 1])
 
 
 with col1:
-    st.markdown('<div style="font-size: 14px">Olá! Eu sou Aline Gomes!!</div>', unsafe_allow_html=True)
+    st.markdown('<div style="font-size: 15px">Olá! Eu sou Aline Gomes!!</div>', unsafe_allow_html=True)
     
     st.markdown('<div style="font-size: 14px">Sou estudante de Ciência de Dados, formada em Análise e Desenvolvimento de Sistemas e certificada como Data Science and Artificial Intelligence Certified Specialist pela Data Science Academy.</div>', unsafe_allow_html=True)
 
