@@ -36,7 +36,7 @@ col4, col5, col6 = st.columns(3)
 
 
 with col4:
-    image = Image.open('Badge_FEI-3_0_PT.png')
+    image = Image.open('Badge_DSCS4.png')
     st.image(image,width=160)
     
 with col5:
