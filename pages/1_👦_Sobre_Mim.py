@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="👦",
 )
 
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(3)
 
 with col1:
     st.markdown('<div style="font-size: 14px">Olá! Eu sou Aline Gomes!!</div>', unsafe_allow_html=True)
