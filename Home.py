@@ -20,15 +20,15 @@ st.text("")
 col1, col2, col3  = st.columns(3)
 
 with col1:
-    image = Image.open('Badge_DSCS.png')
+    image = Image.open('Badge_DSCS1.png')
     st.image(image,width=160)
 
 with col2:
-    image = Image.open('Badge_DSCP.png')
+    image = Image.open('Badge_DSCS2.png')
     st.image(image,width=160)
     
 with col3:
-    image = Image.open('Badge_FCD.png')
+    image = Image.open('Badge_DSCS3.png')
     st.image(image,width=140)
 
 
