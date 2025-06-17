@@ -25,6 +25,6 @@ with col1:
     st.slider("English", 0, 100, 30)
 
 with col2:
-    image_fr = Image.open("Bandeira_do_USA.png")  # use the name you saved for the second image
+    image_fr = Image.open("Bandeira_do_SPAN.png")  # use the name you saved for the second image
     st.image(image_fr, width=200)
     st.slider("French", 0, 100, 70)
