@@ -7,7 +7,8 @@ st.set_page_config(
     page_icon="👦",
 )
 
-col1, col2, col3 = rua.colunas(3)
+col1, col2, col3 = st.columns(3)
+
 
 
 with col1:
