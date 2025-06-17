@@ -37,7 +37,7 @@ with col6:
 col7, col8 = st.columns(2)
 
 with col7:
-   spark = st.slider('Apache Spark', 0, 100, 40)
+   docker = st.slider('Docker', 0, 100, 75)
 
 with col8:
     git = st.slider('Git/GitHub', 0, 100, 90)
@@ -74,42 +74,7 @@ with col15:
 with col16:
     scrum = st.slider('Scrum', 0, 100, 75)
     
-col17,col18 = st.columns(2) 
 
-with col17:
-    docker = st.slider('Docker', 0, 100, 75)
 
-with col18:
-    dl = st.slider('Deep Learning', 0, 100, 75)
-    
-col19,col20 = st.columns(2) 
-    
-with col19:
-    pt = st.slider('PyTorch', 0, 100, 75)
 
-with col20:
-    ts = st.slider('TensorFlow', 0, 100, 75)
-        
-col21,col22 = st.columns(2) 
-    
-with col21:
-    tr = st.slider('Transformers', 0, 100, 75)
-    
-with col22:
-    hf = st.slider('Hugging Face', 0, 100, 75)  
 
-col23,col24 = st.columns(2) 
-    
-with col23:
-    vector = st.slider('Vector DB', 0, 100, 75)
-    
-with col24:
-    rag = st.slider('RAG', 0, 100, 60)  
-
-col25,col26 = st.columns(2) 
-    
-with col25:
-    vector = st.slider('Neo4j', 0, 100, 60)
-    
-with col26:
-    rag = st.slider('Cypher', 0, 100, 60)  
