@@ -1,10 +1,10 @@
-importar iluminado por fluxo como rua
-importar iluminado por fluxo.componentes.v1 como componentes
-de PIL importar Imagem
+import streamlit as st
+import streamlit.components.v1 as components
+from PIL import Image
 
-rua.definir_configuração_da_página(
-    título_da_página="Idiomas",
-    ícone_da_página="🌎",
+st.set_page_config(
+    page_title="Idiomas",
+    page_icon=="🌎",
 )
 
 com rua.recipiente():
