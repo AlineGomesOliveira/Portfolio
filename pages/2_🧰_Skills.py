@@ -61,7 +61,7 @@ with col12:
 col13, col14 = st.columns(2) 
 
 with col13:
-    haddop = st.slider('Apache Hadoop', 0, 100, 45)
+    Excel = st.slider('Microsoft Excel', 0, 100, 100)
 
 with col14:
     vm = st.slider('Oracle VM', 0, 100, 75)
