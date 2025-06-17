@@ -20,15 +20,15 @@ st.text("")
 col1, col2, col3  = st.columns(3)
 
 with col1:
-    image = Image.open('Badge_DSCP.png')
+    image = Image.open('Badge_CISCO1.png')
     st.image(image,width=160)
 
 with col2:
-    image = Image.open('Badge_CISCO1.png')
+    image = Image.open('Badge_CISCO2.png')
     st.image(image,width=160)
     
 with col3:
-    image = Image.open('Badge_CISCO2.png')
+    image = Image.open('Badge_DSCP.png')
     st.image(image,width=140)
 
 
@@ -36,11 +36,11 @@ col4, col5, col6 = st.columns(3)
 
 
 with col4:
-    image = Image.open('Badge_DSCSP.png')
+    image = Image.open('Badge_IBM.png')
     st.image(image,width=160)
     
 with col5:
-    image = Image.open('Badge_OCI23AIFCA.png')
+    image = Image.open('Badge_MICROSOFT.png')
     st.image(image,width=140)
 
 with col6:
