@@ -15,7 +15,9 @@ st.set_page_config(
 st.markdown('<div style="text-align: center;font-size: 40px"><b>Aline Gomes</b></div>', unsafe_allow_html=True)
 st.markdown('<div style="text-align: center;font-size: 23px"><b>Portfólio Profissional – Ciência de Dados & Inteligência Artificial</b></div>', unsafe_allow_html=True)
 
+
 st.text("")
+
 
 col1, col2, col3  = st.columns(3)
 
