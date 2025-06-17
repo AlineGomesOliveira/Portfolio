@@ -24,11 +24,11 @@ with col1:
     st.image(image,width=160)
 
 with col2:
-    image = Image.open('Badge_DSCS2.png')
+    image = Image.open('Badge_CISCO1.png')
     st.image(image,width=160)
     
 with col3:
-    image = Image.open('Badge_DSCS3.png')
+    image = Image.open('Badge_CISCO2.png')
     st.image(image,width=140)
 
 
