@@ -21,34 +21,34 @@ with col2:
 col3, col4 = st.columns(2)
 
 with col3:
-    ml = st.slider('Machine Learning', 0, 100, 90)
+    ml = st.slider('Machine Learning', 0, 100, 60)
 
 with col4:
-    prompt = st.slider('Prompt Engineering', 0, 100, 90)
+    prompt = st.slider('Prompt Engineering', 0, 100, 40)
 
 col5, col6 = st.columns(2)
 
 with col5:
-    llm = st.slider('LLM', 0, 100, 90)
+    llm = st.slider('LLM', 0, 100, 40)
     
 with col6:
-    rl = st.slider('Linguagem R', 0, 100, 90)
+    rl = st.slider('Linguagem R', 0, 100, 80)
     
 col7, col8 = st.columns(2)
 
 with col7:
-   spark = st.slider('Apache Spark', 0, 100, 80)
+   spark = st.slider('Apache Spark', 0, 100, 40)
 
 with col8:
-    git = st.slider('Git/GitHub', 0, 100, 80)
+    git = st.slider('Git/GitHub', 0, 100, 90)
 
 col9, col10 = st.columns(2)
 
 with col9:
-    gcp = st.slider('GCP (VertexIA | Big Query)', 0, 100, 80)    
+    gcp = st.slider('GCP (VertexIA | Big Query)', 0, 100, 70)    
     
 with col10:
-    aml = st.slider('Azure Machine Learning', 0, 100, 80)
+    aml = st.slider('Azure Machine Learning', 0, 100, 50)
     
 col11, col12 = st.columns(2) 
 
@@ -56,12 +56,12 @@ with col11:
     linux = st.slider('Linux', 0, 100, 80)
 
 with col12:
-    powerbi = st.slider('Power BI', 0, 100, 80)
+    powerbi = st.slider('Power BI', 0, 100, 95)
 
 col13, col14 = st.columns(2) 
 
 with col13:
-    haddop = st.slider('Apache Hadoop', 0, 100, 75)
+    haddop = st.slider('Apache Hadoop', 0, 100, 45)
 
 with col14:
     vm = st.slider('Oracle VM', 0, 100, 75)
@@ -69,7 +69,7 @@ with col14:
 col15, col16 = st.columns(2) 
 
 with col15:
-    pnl = st.slider('PNL', 0, 100, 75)
+    pnl = st.slider('PNL', 0, 100, 45)
 
 with col16:
     scrum = st.slider('Scrum', 0, 100, 75)
