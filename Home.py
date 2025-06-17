@@ -20,7 +20,7 @@ st.text("")
 col1, col2, col3  = st.columns(3)
 
 with col1:
-    image = Image.open('Badge_DSCSP.png')
+    image = Image.open('Badge_DSCP.png')
     st.image(image,width=160)
 
 with col2:
@@ -36,7 +36,7 @@ col4, col5, col6 = st.columns(3)
 
 
 with col4:
-    image = Image.open('Badge_DSCS4.png')
+    image = Image.open('Badge_DSCSP.png')
     st.image(image,width=160)
     
 with col5:
