@@ -44,7 +44,7 @@ with col5:
     st.image(image,width=140)
 
 with col6:
-    image = Image.open('Badge_OCI2024GAIOCP.png')
+    image = Image.open('Badge_MICROSOFT1.png')
     st.image(image,width=140)
 
 
