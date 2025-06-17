@@ -12,7 +12,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     
-   st.slider("SQL",0,100, 95)
+   st.slider("SQL",0,100, 50)
 
 with col2:
     r = st.slider('Python', 0, 100, 90)
