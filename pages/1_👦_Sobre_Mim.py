@@ -35,6 +35,6 @@ with col1:
 
 with col2:
     image = Image.open('Main_Photor.jpg')
-    st.image(image,width=280,caption='2016 Ultimate XC-60Km - 10º Lugar Geral')
+    st.image(image,width=280,caption='2022 EMADT Violin Graduation - 1st Place in the classl')
 
     
