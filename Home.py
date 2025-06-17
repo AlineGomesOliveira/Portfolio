@@ -28,7 +28,7 @@ with col2:
     st.image(image,width=160)
     
 with col3:
-    image = Image.open('Badge_DSCP.png')
+    image = Image.open('Badge_IBM.png')
     st.image(image,width=140)
 
 
@@ -36,15 +36,15 @@ col4, col5, col6 = st.columns(3)
 
 
 with col4:
-    image = Image.open('Badge_IBM.png')
+    image = Image.open('Badge_DSCP.png')
     st.image(image,width=160)
     
 with col5:
-    image = Image.open('Badge_MICROSOFT.png')
+    image = Image.open('Badge_MICROSOFT1.png')
     st.image(image,width=140)
 
 with col6:
-    image = Image.open('Badge_MICROSOFT1.png')
+    image = Image.open('Badge_MICROSOFT.png')
     st.image(image,width=140)
 
 
