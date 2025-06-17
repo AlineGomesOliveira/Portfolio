@@ -17,7 +17,7 @@ with st.container():
         st.markdown("")
 
     with col2:
-        image = Image.open('Flag_of_Canada.png')
+        image = Image.open('Bandeira_do_USA.png')
         st.image(image,width=250)
     
     with col3:
