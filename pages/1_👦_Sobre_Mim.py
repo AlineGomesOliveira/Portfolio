@@ -33,7 +33,7 @@ with col1:
     #st.download_button('Baixe meu CV:',pdfFileObj,file_name='Curriculo_Evandro_Cleto.pdf',mime='pdf')
 
 with col2:
-    image = Image.open('Main_Photor.jpg')
+    image = Image.open('Main_Photor1.jpg')
     st.image(image,width=280,caption='2022 EMADT Violin Graduation')
 
 
