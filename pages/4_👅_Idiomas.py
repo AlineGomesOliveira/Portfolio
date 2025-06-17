@@ -36,6 +36,10 @@ with col4:
     
    st.slider("Inglês",0,100, 90)
 
+ with col2:
+        image = Image.open('Bandeira_do_USA.png')
+        st.image(image,width=250)
+
 with col5:
    st.slider('Francês', 0, 100, 50)
     
