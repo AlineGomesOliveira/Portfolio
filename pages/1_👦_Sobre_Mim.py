@@ -29,6 +29,7 @@ with col2:
     image = Image.open("Main_Photor.jpg")
     st.image(image, width=280, caption='2022 EMADT Violin Graduation')
 
+
 with col3:
     image = Image.open("Main_Photor2.jpg")
     st.image(image, width=150, caption='2022 EMADT - 1st Place in the class')
