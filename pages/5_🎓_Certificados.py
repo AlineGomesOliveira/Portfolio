@@ -103,20 +103,6 @@ st.markdown("**Introdução a Redes de Computadores**")
 image1 = Image.open('Cert_Bradesco_Redes.jpg')
 st.image(image1,width=500)
 
-st.markdown("----------------")   
-st.markdown("**Análise Estatística e Modelagem Preditiva de Séries Temporais**")
-image1 = Image.open('Cert_Ser_Temp.png')
-st.image(image1,width=500)
-
-st.markdown("----------------")   
-st.markdown("**Python Fundamentos para Análise de Dados**")
-image1 = Image.open('Cert_Python_Intro.png')
-st.image(image1,width=500)
-
-st.markdown("----------------")   
-st.markdown("**Big Data Fundamentos**")
-image1 = Image.open('Cert_Intro_BD.png')
-st.image(image1,width=500)
 
 st.markdown("----------------")   
 st.markdown("**Introdução à Ciência de Dados**")
