@@ -42,7 +42,7 @@ with col1:
         st.markdown('<div class="slider-container">', unsafe_allow_html=True)
         image_en = Image.open("Bandeira_do_USA.png")
         st.image(image_en, width=150)
-        st.slider("English", 0, 100, 90)
+        st.slider("English", 0, 100, 40)
         st.markdown('</div>', unsafe_allow_html=True)
 
 with col2:
@@ -50,7 +50,7 @@ with col2:
         st.markdown('<div class="slider-container">', unsafe_allow_html=True)
         image_fr = Image.open("Bandeira_da_SPAN.png")  # substitua conforme nome salvo
         st.image(image_fr, width=150)
-        st.slider("French", 0, 100, 50)
+        st.slider("Espanhol", 0, 100, 70)
         st.markdown('</div>', unsafe_allow_html=True)
 
 with col3:
@@ -58,5 +58,5 @@ with col3:
         st.markdown('<div class="slider-container">', unsafe_allow_html=True)
         image_fr = Image.open("Bandeira_da_HOLANDA.png")  # substitua conforme nome salvo
         st.image(image_fr, width=150)
-        st.slider("French", 0, 100, 50)
+        st.slider("Holandes", 0, 100, 20)
         st.markdown('</div>', unsafe_allow_html=True)
