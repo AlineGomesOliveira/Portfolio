@@ -1,15 +1,3 @@
-import streamlit as st
-import streamlit.components.v1 as components
-import numpy as np
-from PIL import Image
-
-st.set_page_config(
-    page_title="Certificados",
-    page_icon="🎓",
-)
-
-st.markdown("### Com grande orgulho, apresento os certificados conquistados ao longo da minha trajetória como Analista e Desenvolvedora de Sistemas, bem como durante minha formação contínua como estudante de Ciência de Dados. Cada certificado representa um passo importante no meu desenvolvimento profissional, refletindo o compromisso com a aprendizagem, a evolução constante e a busca pela excelência na área da tecnologia.") 
-import streamlit as st
 import streamlit.components.v1 as components
 import numpy as np
 from PIL import Image
