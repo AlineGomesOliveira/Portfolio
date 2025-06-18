@@ -1,3 +1,4 @@
+import streamlit as st
 import streamlit.components.v1 as components
 import numpy as np
 from PIL import Image
@@ -6,6 +7,9 @@ st.set_page_config(
     page_title="Certificados",
     page_icon="🎓",
 )
+
+# Conteúdo do app continua aqui...
+
 
 # Texto com alinhamento central e tamanho personalizado
 st.markdown("""
