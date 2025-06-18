@@ -19,7 +19,7 @@ with st.container():
     col13, col14 = st.columns(2)
 
     with col13:
-        st.markdown("### 4. Projeto de Machine Learning para Previsão de Consumo de Combustível")
+        st.markdown("### 4. Projeto de Previsão de Notas de Filmes com Machine Learning")
 
     with col14:
 
