@@ -25,8 +25,8 @@ image1 = Image.open('Cert_Power BI.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
-st.markdown("**Certificação DSCP(Data Scientist Certified Professional)**")
-image1 = Image.open('DSCP_CERT.png')
+st.markdown("**Certificado CISCO(Defesa de Rede - Network Defense)**")
+image1 = Image.open('Cert_Cisco_Defesa_Redes.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
