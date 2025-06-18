@@ -53,64 +53,10 @@ with col15:
     st.image(image1,width=width)
 
 st.markdown("----------------")   
-st.markdown("**Formação Inteligência Artificial...**")
-image1 = Image.open('Cert_FIA.jpg')
-st.image(image1,width=500)
+st.markdown("**Fundamentos de Arquitetura de Sistemas.**")
+image1 = Image.open('Cert_Dio_Arquitetura_Sistemas.jpg')
+st.image(image1,width=400)
 
-st.markdown("**... que é composta pelos cursos:**")
-
-col7, col8, col9  = st.columns(3)
-width=230
-with col7:
-    st.markdown(">**1. Introdução à Inteligência Artificial**")
-    image1 = Image.open('Cert_Into_IA.png')
-    st.image(image1,width=width)
-with col8:
-    st.markdown(">**2. Deep Learning Frameworks**")
-    st.text("")
-    image1 = Image.open('Cert_DeepL_Frame.png')
-    st.image(image1,width=width)
-    
-with col9:
-    st.markdown(">**3. Programação Paralela em GPU**")
-    image1 = Image.open('Cert_Prog_Paralela.png')
-    st.image(image1,width=width)
-    
-col10, col11, col12  = st.columns(3)
-width=230
-with col10:
-    st.markdown(">**4. Deep Learning I**")
-    st.text("")
-    image1 = Image.open('Deep_LearningI.png')
-    st.image(image1,width=width)
-with col11:
-    st.markdown(">**5. Deep Learning II**")
-    st.text("")
-    image1 = Image.open('Deep_LearningII.png')
-    st.image(image1,width=width)
-    
-with col12:
-    st.markdown(">**6. PLN e Reconhecimento de Voz**")
-    image1 = Image.open('Cert_PNL_FIA.jpg')
-    st.image(image1,width=width)
-    
-    
-col13, col14, col15  = st.columns(3)
-width=230
-with col13:
-    st.markdown(">**7. Sistemas Cognitivos**")
-    st.text("")
-    image2 = Image.open('cert_sist_cognitivos.jpg')
-    st.image(image2,width=width)
-with col14:
-    st.markdown(">**7. Análise de Grafos para Big Data**")
-    image1 = Image.open('Cert_Grafos.jpg')
-    st.image(image1,width=width)
-    
-with col15:
-    st.markdown(">**7. Visão Computacional e Reconhecimento de Imagem**")
-    image1 = Image.open('Cert_VisaoFIA.jpg')
-    st.image(image1,width=width)
 
 st.markdown("----------------")   
 st.markdown("**Formação Cientista de Dados...**")
