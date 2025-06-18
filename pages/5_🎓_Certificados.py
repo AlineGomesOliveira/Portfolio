@@ -21,7 +21,7 @@ st.markdown("""
 
 st.markdown("----------------")   
 st.markdown("**Certificação ADA (Certified in Power BI - ADA Community)**")
-image1 = Image.open('Cert_Power BI')
+image1 = Image.open('Cert_Power BI.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
