@@ -93,13 +93,14 @@ st.markdown("**Lógica de Programação Essencial**")
 image1 = Image.open('Cert_Dio_Essencial.jpg')
 st.image(image1,width=500)
 
-st.markdown("**Microsoft Power BI Para Data Science 2.0**")
-image1 = Image.open('Power_BI.png')
+st.markdown("----------------")   
+st.markdown("**Introdução a Criação de Websites com HTML e CSS3**")
+image1 = Image.open('Cert_Dio_HTML_CSS3.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
-st.markdown("**Introdução ao Sistema Operacional Linux**")
-image1 = Image.open('Cert_Linux_Intro.png')
+st.markdown("**Introdução a Redes de Computadores**")
+image1 = Image.open('Cert_Bradesco_Redes.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
