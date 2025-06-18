@@ -105,7 +105,3 @@ st.image(image1,width=500)
 
 
 st.markdown("----------------")   
-st.markdown("**Introdução à Ciência de Dados**")
-image1 = Image.open('Cert_Intro_CD.png')
-st.image(image1,width=500)
-st.markdown("----------------")   
