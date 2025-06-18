@@ -8,6 +8,16 @@ st.set_page_config(
     page_icon="🎓",
 )
 
+# Conteúdo do app continua aqui...
+
+
+# Texto com alinhamento central e tamanho personalizado
+st.markdown("""
+<div style="text-align: justify; font-size: 18px;">
+    <strong>Com grande orgulho</strong>, apresento os certificados conquistados ao longo da minha trajetória como <strong>Analista e Desenvolvedora de Sistemas</strong>, bem como durante minha formação contínua como <strong>estudante de Ciência de Dados</strong>. Cada certificado representa um passo importante no meu desenvolvimento profissional, refletindo o compromisso com a aprendizagem, a evolução constante e a busca pela excelência na área da tecnologia.
+</div>
+""", unsafe_allow_html=True)
+
 st.markdown("### Com grande orgulho</strong>, apresento os certificados conquistados ao longo da minha trajetória como <strong>Analista e Desenvolvedora de Sistemas</strong>, bem como durante minha formação contínua como <strong>estudante de Ciência de Dados</strong>. Cada certificado representa um passo importante no meu desenvolvimento profissional, refletindo o compromisso com a aprendizagem, a evolução constante e a busca pela excelência na área da tecnologia.") 
 
 st.markdown("----------------")   
