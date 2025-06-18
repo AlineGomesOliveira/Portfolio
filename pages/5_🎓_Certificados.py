@@ -22,7 +22,7 @@ st.markdown("""
 st.markdown("----------------")   
 st.markdown("**Certificado ADA (Certified in Power BI - ADA Community)**")
 image1 = Image.open('Cert_Power BI.jpg')
-st.image(image1,width=500)
+st.image(image1,width=350)
 
 st.markdown("----------------")   
 st.markdown("**Certificado CISCO (Defesa de Rede - Network Defense)**")
@@ -56,7 +56,7 @@ with col15:
 st.markdown("----------------")   
 st.markdown("**Fundamentos de Arquitetura de Sistemas.**")
 image1 = Image.open('Cert_Dio_Arquitetura_Sistemas.jpg')
-st.image(image1,width=400)
+st.image(image1,width=350)
 
 st.markdown("----------------")  
 
@@ -81,7 +81,7 @@ with col15:
 st.markdown("----------------")   
 st.markdown("**Visualização de dados e Design de Dashboards**")
 image1 = Image.open('Cert_Design_Dashboard.png')
-st.image(image1,width=500)
+st.image(image1,width=350)
 
 st.markdown("----------------")   
 st.markdown("**Conceitos de Responsividade e Experiência do Usuário**")
