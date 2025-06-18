@@ -24,7 +24,7 @@ with st.container():
     with col14:
 
         image = Image.open('ProjetoDSCS.jpg')
-        st.image(image,width=250)
+        st.image(image,width=300)
     
     col15 = st.columns(1)
 
