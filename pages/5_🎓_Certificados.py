@@ -91,17 +91,17 @@ st.image(image1,width=350)
 st.markdown("----------------")   
 st.markdown("**Lógica de Programação Essencial**")
 image1 = Image.open('Cert_Dio_Essencial.jpg')
-st.image(image1,width=500)
+st.image(image1,width=350)
 
 st.markdown("----------------")   
 st.markdown("**Introdução a Criação de Websites com HTML e CSS3**")
 image1 = Image.open('Cert_Dio_HTML_CSS3.jpg')
-st.image(image1,width=500)
+st.image(image1,width=350)
 
 st.markdown("----------------")   
 st.markdown("**Introdução a Redes de Computadores**")
 image1 = Image.open('Cert_Bradesco_Redes.jpg')
-st.image(image1,width=500)
+st.image(image1,width=350)
 
 
 st.markdown("----------------")   
