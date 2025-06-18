@@ -20,18 +20,18 @@ st.markdown("""
 
 
 st.markdown("----------------")   
-st.markdown("**Certificação ADA (Certified in Power BI - ADA Community)**")
+st.markdown("**Certificado ADA (Certified in Power BI - ADA Community)**")
 image1 = Image.open('Cert_Power BI.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
-st.markdown("**Certificado CISCO(Defesa de Rede - Network Defense)**")
+st.markdown("**Certificado CISCO (Defesa de Rede - Network Defense)**")
 image1 = Image.open('Cert_Cisco_Defesa_Redes.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
-st.markdown("**Prompt Engineering com ChatGPT Para Análise de Dados e Data Science**")
-image1 = Image.open('Cert_Prompt.jpg')
+st.markdown("**Certificado CISCO (Network Technician track exam)**")
+image1 = Image.open('Cert_Cisco_T_Rede.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
