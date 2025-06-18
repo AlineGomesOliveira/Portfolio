@@ -27,6 +27,7 @@ components.html("""
 # Contatos
 st.write('📧:  **linegomes1509@gmail.com**')
 # st.write('📱: **+559299502-1056**')  # Descomente se quiser exibir o telefone
+st.write('LinkedIn:  https://www.linkedin.com/in/aline-gomes-563408169/?locale=pt_BR')
 st.write('GitHub:  https://github.com/AlineGomesOliveira')
 
 
