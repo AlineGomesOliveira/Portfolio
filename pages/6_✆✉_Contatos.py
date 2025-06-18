@@ -7,9 +7,10 @@ st.set_page_config(
     page_icon="✆✉",
 )
 
-st.write('### **Como me encontrar:**')
+# Título com emoji
+st.markdown("## 📇 Como me encontrar:")
 
-# Badge do LinkedIn (corrigido)
+# Badge do LinkedIn incorporado
 components.html("""
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 <div class="badge-base LI-profile-badge" 
@@ -24,10 +25,16 @@ components.html("""
 </div>
 """, height=250)
 
-# Contatos
-st.write('📧:  **linegomes1509@gmail.com**')
-# st.write('📱: **+559299502-1056**')  # Descomente se quiser exibir o telefone
-st.write('LinkedIn:  https://www.linkedin.com/in/aline-gomes-563408169/?locale=pt_BR')
-st.write('GitHub:  https://github.com/AlineGomesOliveira')
+# Linha divisória elegante
+st.markdown("---")
+
+# Contatos com ícones e links clicáveis
+st.markdown("📧 **Email:** [linegomes1509@gmail.com](mailto:linegomes1509@gmail.com)")
+st.markdown("💼 **LinkedIn:** [linkedin.com/in/aline-gomes-563408169](https://www.linkedin.com/in/aline-gomes-563408169/?locale=pt_BR)")
+st.markdown("💻 **GitHub:** [github.com/AlineGomesOliveira](https://github.com/AlineGomesOliveira)")
+
+# Linha final
+st.markdown("---")
+
 
 
