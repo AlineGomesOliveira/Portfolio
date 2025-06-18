@@ -20,8 +20,8 @@ st.markdown("""
 
 
 st.markdown("----------------")   
-st.markdown("**Certificação DSCS(Data Scientist Certified Specialist)**")
-image1 = Image.open('DSCS_CERT.png')
+st.markdown("**Certificação ADA (Certified in Power BI - ADA Community)**")
+image1 = Image.open('Cert_Power BI')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
