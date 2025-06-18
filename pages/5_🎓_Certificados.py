@@ -48,8 +48,8 @@ with col14:
     image1 = Image.open('Cert_Kanban.png')
     st.image(image1,width=width)
 with col15:
-    st.markdown(">**2. Natural Language Processing with Transformers e LLMs**")
-    image1 = Image.open('Cert_PNL_Transformers.jpg')
+    st.markdown(">**2. Mapping Processes, Tasks and Workflow, Review and Improvement**")
+    image1 = Image.open('Cont_Kanban.png')
     st.image(image1,width=width)
 
 st.markdown("----------------")   
