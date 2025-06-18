@@ -35,17 +35,17 @@ image1 = Image.open('Cert_Cisco_T_Rede.jpg')
 st.image(image1,width=450)
 
 st.markdown("----------------")   
-st.markdown("**Formação Engenheiro de Inteligência Artificial 3.0...**")
+st.markdown("**Formação em Método KANBAN...**")
 #image1 = Image.open('Cert_FCD.png')
 #st.image(image1,width=500)
 
-st.markdown("**... que é composta pelos cursos:**")
+st.markdown("**... que é composta pelos cursos e certificado:**")
 
 col14, col15  = st.columns(2)
 width=230
 with col14:
-    st.markdown(">**1. Deep Learning for AI Applications with PyTorch and Lightning**")
-    image1 = Image.open('Cert_DL_Pytorch.jpg')
+    st.markdown(">**1. Training in Personal and Management Development using the KANBAN Method**")
+    image1 = Image.open('Cert_Kanban.png')
     st.image(image1,width=width)
 with col15:
     st.markdown(">**2. Natural Language Processing with Transformers e LLMs**")
