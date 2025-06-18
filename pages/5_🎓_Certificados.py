@@ -86,7 +86,7 @@ st.image(image1,width=500)
 st.markdown("----------------")   
 st.markdown("**Conceitos de Responsividade e Experiência do Usuário**")
 image1 = Image.open('Cert_Dio_Responsividade.jpg')
-st.image(image1,width=500)
+st.image(image1,width=350)
 
 st.markdown("----------------")   
 st.markdown("**Lógica de Programação Essencial**")
