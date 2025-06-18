@@ -20,7 +20,7 @@ with st.container():
 
     with col13:
         st.markdown("**1. Projeto com Feedback:**" )
-        st.markdown("### 📊 Projeto de Previsão de Notas de Filmes com Machine Learning")
+        st.markdown("### Projeto de Previsão de Notas de Filmes com Machine Learning")
 
     with col14:
 
@@ -44,8 +44,8 @@ with st.container():
     col10, col11 = st.columns(2)
 
     with col10:
-        st.markdown("**3. Projeto com Feedback:**" )
-        st.markdown("### Análise de Risco no Transporte Público.")
+        st.markdown("**2. Projeto com Feedback:**" )
+        st.markdown("### Projeto de Análise de Dados: Acidentes de Trânsito no Brasil.")
 
     with col11:
 
