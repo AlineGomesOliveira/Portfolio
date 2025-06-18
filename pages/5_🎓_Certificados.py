@@ -62,24 +62,23 @@ st.image(image1,width=400)
 
 st.markdown("----------------")  
 
-st.markdown("**FLean Six Sigma Whiet Belt Certification**")
-#image1 = Image.open('Cert_White_Belt.png')
+st.markdown("**Lean Six Sigma Whiet Belt Certification...**")
+#image1 = Image.open('Cert_Kanban.png')
 #st.image(image1,width=500)
 
 st.markdown("**... que é composta pelos cursos e certificado:**")
 
-col1, col2, col3  = st.columns(3)
+col14, col15  = st.columns(2)
 width=230
-with col1:
+with col14:
     st.markdown(">**1. Personal and Management Development in Lean Six Sigma Whiet Belt Certification**")
     image1 = Image.open('Cert_White_Belt.png')
     st.image(image1,width=width)
-with col2:
+with col15:
     st.markdown(">**2. BLean Six Sigma Methodology. Design and Improvement Tools, DMAIC**")
-    image1 = Image.open('Cont_White_Belt.png')
+    image1 = Image.open('Cert_White_Belt.png.png')
     st.image(image1,width=width)
-
-st.markdown("----------------") 
+ 
     
 st.markdown("----------------")   
 st.markdown("**SQL Para Data Science**")
