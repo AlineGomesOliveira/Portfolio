@@ -54,9 +54,30 @@ with col15:
     st.image(image1,width=width)
 
 st.markdown("----------------")   
-st.markdown("**Formação Inteligência Artificial...**")
-image1 = Image.open('Cert_FIA.jpg')
-st.image(image1,width=500)
+st.markdown("**Fundamentos de Arquitetura de Sistemas.**")
+image1 = Image.open('Cert_Dio_Arquitetura_Sistemas.jpg')
+st.image(image1,width=400)
+
+st.markdown("----------------")  
+
+st.markdown("**Lean Six Sigma Whiet Belt Certification...**")
+#image1 = Image.open('Cert_Kanban.png')
+#st.image(image1,width=500)
+
+st.markdown("**... que é composta pelos cursos e certificado:**")
+
+col14, col15  = st.columns(2)
+width=230
+with col14:
+    st.markdown(">**1. Personal and Management Development in Lean Six Sigma Whiet Belt Certification**")
+    image1 = Image.open('Cert_White_Belt.png')
+    st.image(image1,width=width)
+with col15:
+    st.markdown(">**2. BLean Six Sigma Methodology. Design and Improvement Tools, DMAIC**")
+    image1 = Image.open('Cont_White_Belt.png')
+    st.image(image1,width=width)
+
+
 
 st.markdown("**... que é composta pelos cursos:**")
 
