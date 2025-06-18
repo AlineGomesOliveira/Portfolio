@@ -10,7 +10,7 @@ st.set_page_config(
 st.write('### **Como me encontrar:**')
 
 components.html("""<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="evandro-cleto-51b49340" data-version="v1"><a class="badge-base__link LI-simple-link" href="hhttps://www.linkedin.com/in/aline-gomes-563408169/?trk=profile-badge"></a></div>""",height=250)
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="aaline-gomes-563408169" data-version="v1"><a class="badge-base__link LI-simple-link" href="hhttps://www.linkedin.com/in/aline-gomes-563408169/?trk=profile-badge"></a></div>""",height=250)
     
 
 
