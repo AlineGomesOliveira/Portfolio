@@ -8,18 +8,16 @@ st.set_page_config(
 )
 
 # Introductory text
-st.markdown("""
-<div style="font-size: 15px">
+col1 = st.columns(1)
 
-### In 2007 I decided to improve my English proficiency and moved to Toronto, Canada, where I stayed until 2008 studying the language and doing some construction work to pay for my stay there.
+with col1:
+    st.markdown('<div style="font-size: 14px">Olá! Eu sou Aline Gomes!!</div>', unsafe_allow_html=True)
 
-### Between 2016 and 2018 I returned to live in Canada, this time in Montreal, and took the opportunity to learn French. I also had the opportunity to work at WADA (World Anti Doping Agency) doing administrative services, where I put into practice what I had learned about English and French.
 
-### And speaking of Canada, in none of these times did I ever meet Luisa!!
-""")
+  st.text("")
 
 # Two columns: English and French
-col1, col2 = st.columns(2)
+col2, col3 = st.columns(2)
 
 with col1:
     image_en = Image.open("Bandeira_do_USA.png")
