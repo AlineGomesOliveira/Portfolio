@@ -9,6 +9,8 @@ st.set_page_config(
 
 # Introductory text
 st.markdown("""
+<div style="font-size: 15px">
+
 ### In 2007 I decided to improve my English proficiency and moved to Toronto, Canada, where I stayed until 2008 studying the language and doing some construction work to pay for my stay there.
 
 ### Between 2016 and 2018 I returned to live in Canada, this time in Montreal, and took the opportunity to learn French. I also had the opportunity to work at WADA (World Anti Doping Agency) doing administrative services, where I put into practice what I had learned about English and French.
