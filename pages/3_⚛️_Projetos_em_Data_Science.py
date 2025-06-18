@@ -34,7 +34,7 @@ with st.container():
     st.markdown("> O 2º objetivo foi construir um modelo de Machine Learning para prever a nota que um usuário daria a um determinado filme. Foram testados os modelos de Regressão Linear, Random Forest e XGBoost.")
     st.markdown("> 📈 As métricas usadas para avaliação dos modelos foram RMSE e MAE.") 
     st.markdown("> 🎯 O objetivo foi alcançar um RMSE abaixo de 0.9, mostrando que o modelo consegue capturar razoavelmente bem as preferências dos usuários.")
-    st.markdown("**✅ Acesse o fonte do projeto aqui:🔗 https://github.com/seuusuario/Previsao_Notas_Filmes")
+    st.markdown("**✅ Acesse o fonte do projeto aqui:🔗 https://github.com/AlineGomesOliveira/Projeto_Previsao_Notas_Filmes")
 
 with st.container():
 
