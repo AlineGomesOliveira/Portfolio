@@ -26,11 +26,11 @@ st.markdown("""
 # Texto com fonte reduzida
 st.markdown("""
 <div class="small-text">
-<p>Ao longo dos anos, desenvolvi diferentes níveis de proficiência em inglês, espanhol e holandês — cada um deles moldado por experiências pessoais e significativas..</p>
+<p>Over the years, I've developed different levels of proficiency in English, Spanish, and Dutch — each one shaped by personal and meaningful experiences.</p>
 
-<p>Comecei a aprender espanhol sozinha, inspirada por familiares que moraram em Buenos Aires e sempre compartilharam comigo a cultura e o idioma. Essa influência despertou minha curiosidade e me ajudou a alcançar um nível avançado.</p>
+<p>I started learning Spanish on my own, inspired by family members who lived in Buenos Aires and often shared the culture and language with me. That influence sparked my curiosity and helped me reach an advanced level.</p>
 
-<p>Quanto ao holandês e ao inglês, tive contato frequente com os dois graças à minha tia, que vive em Amsterdã há mais de 20 anos. Cada ligação com ela é uma verdadeira aula de idiomas — ela nos incentiva a praticar e conversar em ambas as línguas, o que tem me ajudado a manter um nível básico de holandês e a desenvolver um nível intermediário de inglês com o uso constante.</p>
+<p>As for Dutch and English, I’ve been constantly exposed to both thanks to my aunt, who has been living in Amsterdam for over 20 years. Every call with her is a real-life language lesson — she encourages us to speak and practice in both languages, which has helped me maintain a basic level of Dutch and develop my intermediate English skills through regular use.</p>
 </div>
 """, unsafe_allow_html=True)
 
