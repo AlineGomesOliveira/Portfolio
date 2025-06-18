@@ -28,9 +28,9 @@ st.markdown("""
 <div class="small-text">
 <p>Ao longo dos anos, desenvolvi diferentes níveis de proficiência em inglês, espanhol e holandês — cada um deles moldado por experiências pessoais e significativas..</p>
 
-<p>Between 2016 and 2018 I returned to live in Canada, this time in Montreal, and took the opportunity to learn French. I also had the opportunity to work at WADA (World Anti Doping Agency) doing administrative services, where I put into practice what I had learned about English and French.</p>
+<p>Comecei a aprender espanhol sozinha, inspirada por familiares que moraram em Buenos Aires e sempre compartilharam comigo a cultura e o idioma. Essa influência despertou minha curiosidade e me ajudou a alcançar um nível avançado.</p>
 
-<p>And speaking of Canada, in none of these times did I ever meet Luisa!!</p>
+<p>Quanto ao holandês e ao inglês, tive contato frequente com os dois graças à minha tia, que vive em Amsterdã há mais de 20 anos. Cada ligação com ela é uma verdadeira aula de idiomas — ela nos incentiva a praticar e conversar em ambas as línguas, o que tem me ajudado a manter um nível básico de holandês e a desenvolver um nível intermediário de inglês com o uso constante.</p>
 </div>
 """, unsafe_allow_html=True)
 
