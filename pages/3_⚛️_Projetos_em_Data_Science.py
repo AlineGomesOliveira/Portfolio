@@ -19,7 +19,8 @@ with st.container():
     col13, col14 = st.columns(2)
 
     with col13:
-        st.markdown("### 📊 1. Projeto de Previsão de Notas de Filmes com Machine Learning
+        st.markdown("### 4. Projeto de Machine Learning para Previsão de Consumo de Combustível")
+
     with col14:
 
         image = Image.open('ProjetoDSCS.jpg')
@@ -28,7 +29,7 @@ with st.container():
     col15 = st.columns(1)
 
     st.markdown("**Resumo:** " )
-    st.markdown("> 📌 Neste projeto existiram 2 objetivos principais:")
+    st.markdown("> Neste projeto existiram 2 objetivos:")
     st.markdown("> O 1º objetivo foi aplicar conhecimento em Data Science e responder 8 perguntas sobre Logística e Consumo de Combustível com tabelas e gráficos gerados com os pacotes Pandas, Matplotlib e Seaborn do Python.")
     st.markdown("> 0 2º objetivo foi criar modelos de Machine Learning para Prever de Consumo de Combustível. Para esta previsão foi usado um modelo de Regressão(Benchmark), um modelo SVM e um modelo SVM com otimização de parâmetros através da biblioteca Python SciKit-learn.")
     st.markdown("> As métricas usadas foram Coeficiente R2 e RMSE.") 
@@ -153,8 +154,4 @@ with st.container():
     st.markdown("O Dataset utilizado no projeto foi obtido em: https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data")
     st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto01_Deteccao_Fraudes_Trafego_Cliques/blob/main/Projeto01_Detec%C3%A7%C3%A3o_Fraudes_Trafego_Cliques.R")
   
-    st.markdown("----------------")  
-    
-    
-  
-
+    st.markdown("----------------")
