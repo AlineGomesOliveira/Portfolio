@@ -5,7 +5,7 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Certificados",
-    page_icon="🖥️",
+    page_icon="🎓",
 )
 
 st.markdown("### Com muito orgulho apresento meus certificados obtidos através da minha minha jornada como Cientista de Dados.") 
