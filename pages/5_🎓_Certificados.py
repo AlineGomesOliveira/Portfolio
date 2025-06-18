@@ -106,6 +106,46 @@ image1 = Image.open('Cert_Bradesco_Redes.jpg')
 st.image(image1,width=500)
 st.markdown("----------------")  
 
+st.markdown("----------------")   
+st.markdown("**SQL Para Data Science**")
+image1 = Image.open('Cert_SQL.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**Microsoft Power BI Para Data Science 3.0**")
+image1 = Image.open('Power_BI_3.png')
+st.image(image1,width=500)
+
+st.markdown("**Microsoft Power BI Para Data Science 2.0**")
+image1 = Image.open('Power_BI.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**Introdução ao Sistema Operacional Linux**")
+image1 = Image.open('Cert_Linux_Intro.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**Análise Estatística e Modelagem Preditiva de Séries Temporais**")
+image1 = Image.open('Cert_Ser_Temp.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**Python Fundamentos para Análise de Dados**")
+image1 = Image.open('Cert_Python_Intro.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**Big Data Fundamentos**")
+image1 = Image.open('Cert_Intro_BD.png')
+st.image(image1,width=500)
+
+st.markdown("----------------")   
+st.markdown("**Introdução à Ciência de Dados**")
+image1 = Image.open('Cert_Intro_CD.png')
+st.image(image1,width=500)
+st.markdown("----------------") 
+
 
 
 
