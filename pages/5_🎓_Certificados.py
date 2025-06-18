@@ -83,51 +83,14 @@ st.markdown("**Visualização de dados e Design de Dashboards**")
 image1 = Image.open('Cert_Design_Dashboard.png')
 st.image(image1,width=500)
 
-
-st.markdown("**... que é composta pelos cursos:**")
-
-col1, col2, col3  = st.columns(3)
-width=230
-with col1:
-    st.markdown(">**1. Big Data Analytics com R e Microsoft Azure ML**")
-    image1 = Image.open('Cert_R.png')
-    st.image(image1,width=width)
-with col2:
-    st.markdown(">**2. Big Data Real-Time Analytics com Python e Spark**")
-    image1 = Image.open('Cert_Python_Spark.png')
-    st.image(image1,width=width)
-    
-with col3:
-    st.markdown(">**3. Engenharia de Dados com Hadoop e Spark**")
-    image1 = Image.open('Cert_Haddop.png')
-    st.image(image1,width=width)
-    
-col4, col5, col6  = st.columns(3)
-width=230
-with col4:
-    st.markdown(">**4. Machine Learning**                             ")
-    st.text("")
-    image1 = Image.open('Cert_ML.png')
-    st.image(image1,width=width)
-with col5:
-    st.markdown(">**5. Business Analytics**                            ")
-    st.text("")
-    image1 = Image.open('Cert_Business.png')
-    st.image(image1,width=width)
-    
-with col6:
-    st.markdown(">**6. Visualização de dados e Design de Dashboards**")
-    image1 = Image.open('Cert_Dataviz.png')
-    st.image(image1,width=width)
-
 st.markdown("----------------")   
-st.markdown("**SQL Para Data Science**")
-image1 = Image.open('Cert_SQL.png')
+st.markdown("**Conceitos de Responsividade e Experiência do Usuário**")
+image1 = Image.open('Cert_Dio_Responsividade.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
-st.markdown("**Microsoft Power BI Para Data Science 3.0**")
-image1 = Image.open('Power_BI_3.png')
+st.markdown("**Lógica de Programação Essencial**")
+image1 = Image.open('Cert_Dio_Essencial.jpg')
 st.image(image1,width=500)
 
 st.markdown("**Microsoft Power BI Para Data Science 2.0**")
