@@ -59,7 +59,7 @@ st.image(image1,width=400)
 
 
 st.markdown("----------------")   
-st.markdown("**Formação Cientista de Dados...**")
+st.markdown("**FLean Six Sigma Whiet Belt Certification**")
 image1 = Image.open('Cert_FCD.png')
 st.image(image1,width=500)
 
