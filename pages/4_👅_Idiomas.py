@@ -35,7 +35,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Colunas lado a lado com sliders abaixo das imagens
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 with col1:
     with st.container():
@@ -48,8 +48,15 @@ with col1:
 with col2:
     with st.container():
         st.markdown('<div class="slider-container">', unsafe_allow_html=True)
-        image_fr = Image.open("Bandeira_do_SPAN.png")  # substitua conforme nome salvo
+        image_fr = Image.open("Bandeira_da_SPAN.png")  # substitua conforme nome salvo
         st.image(image_fr, width=150)
         st.slider("French", 0, 100, 50)
         st.markdown('</div>', unsafe_allow_html=True)
 
+with col3:
+    with st.container():
+        st.markdown('<div class="slider-container">', unsafe_allow_html=True)
+        image_fr = Image.open("Bandeira_da_HOLANDA.png")  # substitua conforme nome salvo
+        st.image(image_fr, width=150)
+        st.slider("French", 0, 100, 50)
+        st.markdown('</div>', unsafe_allow_html=True)
