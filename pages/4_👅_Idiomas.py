@@ -19,12 +19,12 @@ with col1:
 # Two columns: English and French
 col2, col3 = st.columns(2)
 
-with col1:
+with col2:
     image_en = Image.open("Bandeira_do_USA.png")
     st.image(image_en, width=200)
     st.slider("English", 0, 100, 30)
 
-with col2:
+with col3:
     image_fr = Image.open("Bandeira_do_SPAN.png")  # use the name you saved for the second image
     st.image(image_fr, width=200)
     st.slider("French", 0, 100, 70)
