@@ -5,10 +5,10 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Certificados",
-    page_icon="🖥️",
+    page_icon="🎓",
 )
 
-st.markdown("### Com muito orgulho apresento meus certificados obtidos através da minha minha jornada como Cientista de Dados.") 
+st.markdown("### Com grande orgulho</strong>, apresento os certificados conquistados ao longo da minha trajetória como <strong>Analista e Desenvolvedora de Sistemas</strong>, bem como durante minha formação contínua como <strong>estudante de Ciência de Dados</strong>. Cada certificado representa um passo importante no meu desenvolvimento profissional, refletindo o compromisso com a aprendizagem, a evolução constante e a busca pela excelência na área da tecnologia.") 
 
 st.markdown("----------------")   
 st.markdown("**Certificação DSCS(Data Scientist Certified Specialist)**")
