@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="🎓",
 )
 
-st.markdown("### Com muito orgulho apresento meus certificados obtidos através da minha minha jornada como Cientista de Dados.") 
+st.markdown("### Com grande orgulho, apresento os certificados conquistados ao longo da minha trajetória como Analista e Desenvolvedora de Sistemas, bem como durante minha formação contínua como estudante de Ciência de Dados. Cada certificado representa um passo importante no meu desenvolvimento profissional, refletindo o compromisso com a aprendizagem, a evolução constante e a busca pela excelência na área da tecnologia.") 
 
 st.markdown("----------------")   
 st.markdown("**Certificação DSCS(Data Scientist Certified Specialist)**")
