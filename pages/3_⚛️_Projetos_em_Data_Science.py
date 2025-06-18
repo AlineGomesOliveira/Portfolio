@@ -32,10 +32,9 @@ with st.container():
     st.markdown("> 📌 Neste projeto existiram 2 objetivos principais:")
     st.markdown("> O 1º objetivo foi aplicar conceitos de Ciência de Dados para analisar um dataset com avaliações de filmes feitas por usuários (MovieLens dataset), investigando padrões de nota com relação a gênero, ano de lançamento e número de avaliações.")
     st.markdown("> O 2º objetivo foi construir um modelo de Machine Learning para prever a nota que um usuário daria a um determinado filme. Foram testados os modelos de Regressão Linear, Random Forest e XGBoost.")
-    st.markdown("> 0 2º objetivo foi criar modelos de Machine Learning para Prever de Consumo de Combustível. Para esta previsão foi usado um modelo de Regressão(Benchmark), um modelo SVM e um modelo SVM com otimização de parâmetros através da biblioteca Python SciKit-learn.")
-    st.markdown("> As métricas usadas foram Coeficiente R2 e RMSE.") 
-    st.markdown("> O objetivo foi alcançar um Coeficiente R2 de 70%.")
-    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto_Previsao_Consumo_Combustivel")
+    st.markdown("> 📈 As métricas usadas para avaliação dos modelos foram RMSE e MAE.") 
+    st.markdown("> 🎯 O objetivo foi alcançar um RMSE abaixo de 0.9, mostrando que o modelo consegue capturar razoavelmente bem as preferências dos usuários.")
+    st.markdown("**✅ Acesse o fonte do projeto aqui:🔗 https://github.com/seuusuario/Previsao_Notas_Filmes")
 
 with st.container():
 
