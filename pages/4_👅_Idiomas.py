@@ -1,4 +1,4 @@
-import streamlit as st
+iimport streamlit as st
 from PIL import Image
 
 # Page config
@@ -7,24 +7,49 @@ st.set_page_config(
     page_icon="🌍",
 )
 
-# Introductory text
+# Estilo personalizado para reduzir o tamanho do texto
 st.markdown("""
-### In 2007 I decided to improve my English proficiency and moved to Toronto, Canada, where I stayed until 2008 studying the language and doing some construction work to pay for my stay there.
+<style>
+    .small-text {
+        font-size:16px !important;
+        line-height:1.5;
+    }
+    .slider-container {
+        text-align: center;
+    }
+    .slider-container img {
+        margin-bottom: 10px;
+    }
+</style>
+""", unsafe_allow_html=True)
 
-### Between 2016 and 2018 I returned to live in Canada, this time in Montreal, and took the opportunity to learn French. I also had the opportunity to work at WADA (World Anti Doping Agency) doing administrative services, where I put into practice what I had learned about English and French.
+# Texto com fonte reduzida
+st.markdown("""
+<div class="small-text">
+<p>In 2007 I decided to improve my English proficiency and moved to Toronto, Canada, where I stayed until 2008 studying the language and doing some construction work to pay for my stay there.</p>
 
-### And speaking of Canada, in none of these times did I ever meet Luisa!!
-""")
+<p>Between 2016 and 2018 I returned to live in Canada, this time in Montreal, and took the opportunity to learn French. I also had the opportunity to work at WADA (World Anti Doping Agency) doing administrative services, where I put into practice what I had learned about English and French.</p>
 
-# Two columns: English and French
+<p>And speaking of Canada, in none of these times did I ever meet Luisa!!</p>
+</div>
+""", unsafe_allow_html=True)
+
+# Colunas lado a lado com sliders abaixo das imagens
 col1, col2 = st.columns(2)
 
 with col1:
-    image_en = Image.open("Bandeira_do_USA.png")
-    st.image(image_en, width=200)
-    st.slider("English", 0, 100, 90)
+    with st.container():
+        st.markdown('<div class="slider-container">', unsafe_allow_html=True)
+        image_en = Image.open("Bandeira_do_USA.png")
+        st.image(image_en, width=150)
+        st.slider("English", 0, 100, 90)
+        st.markdown('</div>', unsafe_allow_html=True)
 
 with col2:
-    image_fr = Image.open("Bandeira_do_SPAN.png")  # use the name you saved for the second image
-    st.image(image_fr, width=200)
-    st.slider("French", 0, 100, 50)
+    with st.container():
+        st.markdown('<div class="slider-container">', unsafe_allow_html=True)
+        image_fr = Image.open("Bandeira_do_SPAN.png")  # substitua conforme nome salvo
+        st.image(image_fr, width=150)
+        st.slider("French", 0, 100, 50)
+        st.markdown('</div>', unsafe_allow_html=True)
+
