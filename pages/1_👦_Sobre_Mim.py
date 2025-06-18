@@ -4,7 +4,7 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Sobre Mim",
-    page_icon="👦",
+    page_icon="👩🏻‍💻",
 )
 
 col1, col2, col3 = st.columns([2, 1, 1]) 
