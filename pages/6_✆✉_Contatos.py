@@ -13,7 +13,8 @@ components.html("""<script src="https://platform.linkedin.com/badges/js/profile.
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="evandro-cleto-51b49340" data-version="v1"><a class="badge-base__link LI-simple-link" href="hhttps://www.linkedin.com/in/aline-gomes-563408169/?trk=profile-badge"></a></div>""",height=250)
     
 
-st.write('📧: **linegomes1509@gmail.com**')
+
+st.write('📧:  **linegomes1509@gmail.com**')
 #st.write('📱: **+559299502-1056**')
-st.write('LinkedIn: https://www.linkedin.com/in/aline-gomes-563408169/?locale=pt_BR')
-st.write('GitHub: https://github.com/AlineGomesOliveira')
+st.write('LinkedIn:  https://www.linkedin.com/in/aline-gomes-563408169/?locale=pt_BR')
+st.write('GitHub:  https://github.com/AlineGomesOliveira')
