@@ -18,39 +18,39 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown("### Com grande orgulho</strong>, apresento os certificados conquistados ao longo da minha trajetória como <strong>Analista e Desenvolvedora de Sistemas</strong>, bem como durante minha formação contínua como <strong>estudante de Ciência de Dados</strong>. Cada certificado representa um passo importante no meu desenvolvimento profissional, refletindo o compromisso com a aprendizagem, a evolução constante e a busca pela excelência na área da tecnologia.") 
 
 st.markdown("----------------")   
-st.markdown("**Certificação DSCS(Data Scientist Certified Specialist)**")
-image1 = Image.open('DSCS_CERT.png')
+st.markdown("**Certificado ADA (Certified in Power BI - ADA Community)**")
+image1 = Image.open('Cert_Power BI.jpg')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
-st.markdown("**Certificação DSCP(Data Scientist Certified Professional)**")
-image1 = Image.open('DSCP_CERT.png')
-st.image(image1,width=500)
+st.markdown("**Certificado CISCO (Defesa de Rede - Network Defense)**")
+image1 = Image.open('Cert_Cisco_Defesa_Redes.jpg')
+st.image(image1,width=450)
 
 st.markdown("----------------")   
-st.markdown("**Prompt Engineering com ChatGPT Para Análise de Dados e Data Science**")
-image1 = Image.open('Cert_Prompt.jpg')
-st.image(image1,width=500)
+st.markdown("**Certificado CISCO (Network Technician track exam)**")
+image1 = Image.open('Cert_Cisco_T_Rede.jpg')
+st.image(image1,width=450)
 
 st.markdown("----------------")   
-st.markdown("**Formação Engenheiro de Inteligência Artificial 3.0...**")
-#image1 = Image.open('Cert_FCD.png')
+
+st.markdown("**Formação em Método KANBAN...**")
+#image1 = Image.open('Cert_Kanban.png')
 #st.image(image1,width=500)
 
-st.markdown("**... que é composta pelos cursos:**")
+st.markdown("**... que é composta pelos cursos e certificado:**")
 
 col14, col15  = st.columns(2)
 width=230
 with col14:
-    st.markdown(">**1. Deep Learning for AI Applications with PyTorch and Lightning**")
-    image1 = Image.open('Cert_DL_Pytorch.jpg')
+    st.markdown(">**1. Training in Personal and Management Development using the KANBAN Method**")
+    image1 = Image.open('Cert_Kanban.png')
     st.image(image1,width=width)
 with col15:
-    st.markdown(">**2. Natural Language Processing with Transformers e LLMs**")
-    image1 = Image.open('Cert_PNL_Transformers.jpg')
+    st.markdown(">**2. Mapping Processes, Tasks and Workflow, Review and Improvement**")
+    image1 = Image.open('Cont_Kanban.png')
     st.image(image1,width=width)
 
 st.markdown("----------------")   
