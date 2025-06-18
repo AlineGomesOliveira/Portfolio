@@ -27,12 +27,12 @@ st.image(image1,width=500)
 st.markdown("----------------")   
 st.markdown("**Certificado CISCO (Defesa de Rede - Network Defense)**")
 image1 = Image.open('Cert_Cisco_Defesa_Redes.jpg')
-st.image(image1,width=450)
+st.image(image1,width=350)
 
 st.markdown("----------------")   
 st.markdown("**Certificado CISCO (Network Technician track exam)**")
 image1 = Image.open('Cert_Cisco_T_Rede.jpg')
-st.image(image1,width=450)
+st.image(image1,width=350)
 
 st.markdown("----------------")   
 
