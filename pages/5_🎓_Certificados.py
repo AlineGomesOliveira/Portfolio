@@ -81,8 +81,8 @@ with col15:
  
     
 st.markdown("----------------")   
-st.markdown("**SQL Para Data Science**")
-image1 = Image.open('Cert_SQL.png')
+st.markdown("**Visualização de dados e Design de Dashboards**")
+image1 = Image.open('Cert_Design_Dashboard.png')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
