@@ -104,6 +104,7 @@ st.markdown("----------------")
 st.markdown("**Introdução a Redes de Computadores**")
 image1 = Image.open('Cert_Bradesco_Redes.jpg')
 st.image(image1,width=500)
+st.markdown("----------------")  
 
 
 
