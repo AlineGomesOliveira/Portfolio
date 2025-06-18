@@ -39,10 +39,10 @@ componentes.HTML("""
        data-size="medium"
        data-theme="light"
        data-type="VERTICAL"
-       data-vanity="SEU-VANITY"
+       data-vanity="aline-gomes-oli1509"
        data-version="v1">
     <a class="badge-base__link LI-simple-link"
-       href="https://www.linkedin.com/in/SEU-VANITY">
+       href="www.linkedin.com/in/aline-gomes-oli1509">
        Aline Gomes no LinkedIn
     </a>
   </div>
@@ -50,3 +50,5 @@ componentes.HTML("""
 
 rua.escrever("✉️: alinegomes1509@gmail.com\n\n")
 rua.escrever("GitHub: https://github.com/AlineGomesOliveira")
+
+
