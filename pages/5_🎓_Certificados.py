@@ -35,8 +35,9 @@ image1 = Image.open('Cert_Cisco_T_Rede.jpg')
 st.image(image1,width=450)
 
 st.markdown("----------------")   
+
 st.markdown("**Formação em Método KANBAN...**")
-#image1 = Image.open('Cert_FCD.png')
+#image1 = Image.open('Cert_Kanban.png')
 #st.image(image1,width=500)
 
 st.markdown("**... que é composta pelos cursos e certificado:**")
@@ -58,18 +59,19 @@ image1 = Image.open('Cert_Dio_Arquitetura_Sistemas.jpg')
 st.image(image1,width=400)
 
 
-st.markdown("----------------")   
-st.markdown("**FLean Six Sigma Whiet Belt Certification**")
-image1 = Image.open('Cert_FCD.png')
-st.image(image1,width=500)
+st.markdown("----------------")  
 
-st.markdown("**... que é composta pelos cursos:**")
+st.markdown("**FLean Six Sigma Whiet Belt Certification**")
+#image1 = Image.open('Cert_White_Belt.png')
+#st.image(image1,width=500)
+
+st.markdown("**... que é composta pelos cursos e certificado:**")
 
 col1, col2, col3  = st.columns(3)
 width=230
 with col1:
-    st.markdown(">**1. Big Data Analytics com R e Microsoft Azure ML**")
-    image1 = Image.open('Cert_R.png')
+    st.markdown(">**1. Personal and Management Development in Lean Six Sigma Whiet Belt Certification**")
+    image1 = Image.open('Cert_White_Belt.png')
     st.image(image1,width=width)
 with col2:
     st.markdown(">**2. Big Data Real-Time Analytics com Python e Spark**")
