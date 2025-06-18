@@ -76,7 +76,7 @@ with col14:
     st.image(image1,width=width)
 with col15:
     st.markdown(">**2. BLean Six Sigma Methodology. Design and Improvement Tools, DMAIC**")
-    image1 = Image.open('Cert_White_Belt.png.png')
+    image1 = Image.open('Cont_White_Belt.png')
     st.image(image1,width=width)
  
     
