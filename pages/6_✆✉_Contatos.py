@@ -29,9 +29,9 @@ components.html("""
 st.markdown("---")
 
 # Contatos com ícones e links clicáveis
-st.markdown("📧 **Email:** [linegomes1509@gmail.com](mailto:linegomes1509@gmail.com)")
-st.markdown("🌐   **LinkedIn:** [linkedin.com/in/aline-gomes-563408169](https://www.linkedin.com/in/aline-gomes-563408169/?locale=pt_BR)")
-st.markdown("</>  **GitHub:** [github.com/AlineGomesOliveira](https://github.com/AlineGomesOliveira)")
+st.markdown("📧 **Email:**    [linegomes1509@gmail.com](mailto:linegomes1509@gmail.com)")
+st.markdown("</> **GitHub:**   [github.com/AlineGomesOliveira](https://github.com/AlineGomesOliveira)")
+st.markdown("🌐 **LinkedIn:** [linkedin.com/in/aline-gomes-563408169](https://www.linkedin.com/in/aline-gomes-563408169/?locale=pt_BR)")
 
 # Linha final
 st.markdown("---")
