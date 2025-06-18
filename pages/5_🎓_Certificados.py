@@ -5,106 +5,144 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Certificados",
-    page_icon="🎓",
+    page_icon="🖥️",
 )
 
-# Conteúdo do app continua aqui...
-
-
-# Texto com alinhamento central e tamanho personalizado
-st.markdown("""
-<div style="text-align: justify; font-size: 18px;">
-    <strong>Com grande orgulho</strong>, apresento os certificados conquistados ao longo da minha trajetória como <strong>Analista e Desenvolvedora de Sistemas</strong>, bem como durante minha formação contínua como <strong>estudante de Ciência de Dados</strong>. Cada certificado representa um passo importante no meu desenvolvimento profissional, refletindo o compromisso com a aprendizagem, a evolução constante e a busca pela excelência na área da tecnologia.
-</div>
-""", unsafe_allow_html=True)
-
+st.markdown("### Com muito orgulho apresento meus certificados obtidos através da minha minha jornada como Cientista de Dados.") 
 
 st.markdown("----------------")   
-st.markdown("**Certificado ADA (Certified in Power BI - ADA Community)**")
-image1 = Image.open('Cert_Power BI.jpg')
+st.markdown("**Certificação DSCS(Data Scientist Certified Specialist)**")
+image1 = Image.open('DSCS_CERT.png')
 st.image(image1,width=500)
 
 st.markdown("----------------")   
-st.markdown("**Certificado CISCO (Defesa de Rede - Network Defense)**")
-image1 = Image.open('Cert_Cisco_Defesa_Redes.jpg')
-st.image(image1,width=450)
+st.markdown("**Certificação DSCP(Data Scientist Certified Professional)**")
+image1 = Image.open('DSCP_CERT.png')
+st.image(image1,width=500)
 
 st.markdown("----------------")   
-st.markdown("**Certificado CISCO (Network Technician track exam)**")
-image1 = Image.open('Cert_Cisco_T_Rede.jpg')
-st.image(image1,width=450)
+st.markdown("**Prompt Engineering com ChatGPT Para Análise de Dados e Data Science**")
+image1 = Image.open('Cert_Prompt.jpg')
+st.image(image1,width=500)
 
 st.markdown("----------------")   
-
-st.markdown("**Formação em Método KANBAN...**")
-#image1 = Image.open('Cert_Kanban.png')
+st.markdown("**Formação Engenheiro de Inteligência Artificial 3.0...**")
+#image1 = Image.open('Cert_FCD.png')
 #st.image(image1,width=500)
 
-st.markdown("**... que é composta pelos cursos e certificado:**")
+st.markdown("**... que é composta pelos cursos:**")
 
 col14, col15  = st.columns(2)
 width=230
 with col14:
-    st.markdown(">**1. Training in Personal and Management Development using the KANBAN Method**")
-    image1 = Image.open('Cert_Kanban.png')
+    st.markdown(">**1. Deep Learning for AI Applications with PyTorch and Lightning**")
+    image1 = Image.open('Cert_DL_Pytorch.jpg')
     st.image(image1,width=width)
 with col15:
-    st.markdown(">**2. Mapping Processes, Tasks and Workflow, Review and Improvement**")
-    image1 = Image.open('Cont_Kanban.png')
+    st.markdown(">**2. Natural Language Processing with Transformers e LLMs**")
+    image1 = Image.open('Cert_PNL_Transformers.jpg')
     st.image(image1,width=width)
 
 st.markdown("----------------")   
+st.markdown("**Formação Inteligência Artificial...**")
+image1 = Image.open('Cert_FIA.jpg')
+st.image(image1,width=500)
 
-st.markdown("**Fundamentos de Arquitetura de Sistemas.**")
-image1 = Image.open('Cert_Dio_Arquitetura_Sistemas.jpg')
-st.image(image1,width=400)
+st.markdown("**... que é composta pelos cursos:**")
 
-
-st.markdown("----------------")  
-
-st.markdown("**Lean Six Sigma Whiet Belt Certification...**")
-#image1 = Image.open('Cert_Kanban.png')
-#st.image(image1,width=500)
-
-st.markdown("**... que é composta pelos cursos e certificado:**")
-
-col14, col15  = st.columns(2)
+col7, col8, col9  = st.columns(3)
 width=230
-with col14:
-    st.markdown(">**1. Personal and Management Development in Lean Six Sigma Whiet Belt Certification**")
-    image1 = Image.open('Cert_White_Belt.png')
+with col7:
+    st.markdown(">**1. Introdução à Inteligência Artificial**")
+    image1 = Image.open('Cert_Into_IA.png')
     st.image(image1,width=width)
-with col15:
-    st.markdown(">**2. BLean Six Sigma Methodology. Design and Improvement Tools, DMAIC**")
-    image1 = Image.open('Cont_White_Belt.png')
+with col8:
+    st.markdown(">**2. Deep Learning Frameworks**")
+    st.text("")
+    image1 = Image.open('Cert_DeepL_Frame.png')
     st.image(image1,width=width)
- 
     
-st.markdown("----------------")   
-st.markdown("**Visualização de dados e Design de Dashboards**")
-image1 = Image.open('Cert_Design_Dashboard.png')
-st.image(image1,width=500)
+with col9:
+    st.markdown(">**3. Programação Paralela em GPU**")
+    image1 = Image.open('Cert_Prog_Paralela.png')
+    st.image(image1,width=width)
+    
+col10, col11, col12  = st.columns(3)
+width=230
+with col10:
+    st.markdown(">**4. Deep Learning I**")
+    st.text("")
+    image1 = Image.open('Deep_LearningI.png')
+    st.image(image1,width=width)
+with col11:
+    st.markdown(">**5. Deep Learning II**")
+    st.text("")
+    image1 = Image.open('Deep_LearningII.png')
+    st.image(image1,width=width)
+    
+with col12:
+    st.markdown(">**6. PLN e Reconhecimento de Voz**")
+    image1 = Image.open('Cert_PNL_FIA.jpg')
+    st.image(image1,width=width)
+    
+    
+col13, col14, col15  = st.columns(3)
+width=230
+with col13:
+    st.markdown(">**7. Sistemas Cognitivos**")
+    st.text("")
+    image2 = Image.open('cert_sist_cognitivos.jpg')
+    st.image(image2,width=width)
+with col14:
+    st.markdown(">**7. Análise de Grafos para Big Data**")
+    image1 = Image.open('Cert_Grafos.jpg')
+    st.image(image1,width=width)
+    
+with col15:
+    st.markdown(">**7. Visão Computacional e Reconhecimento de Imagem**")
+    image1 = Image.open('Cert_VisaoFIA.jpg')
+    st.image(image1,width=width)
 
 st.markdown("----------------")   
-st.markdown("**Conceitos de Responsividade e Experiência do Usuário
-**")
-image1 = Image.open('Cert_Dio_Responsividade.jpg')
+st.markdown("**Formação Cientista de Dados...**")
+image1 = Image.open('Cert_FCD.png')
 st.image(image1,width=500)
 
-st.markdown("**Lógica de Programação Essencial**")
-image1 = Image.open('Cert_Dio_Essencial.jpg')
-st.image(image1,width=500)
+st.markdown("**... que é composta pelos cursos:**")
 
-st.markdown("----------------")   
-st.markdown("**Introdução a Criação de Websites com HTML e CSS3**")
-image1 = Image.open('Cert_Dio_HTML_CSS3.jpg')
-st.image(image1,width=500)
-
-st.markdown("----------------")   
-st.markdown("**Introdução a Redes de Computadores**")
-image1 = Image.open('Cert_Bradesco_Redes.jpg')
-st.image(image1,width=500)
-st.markdown("----------------")  
+col1, col2, col3  = st.columns(3)
+width=230
+with col1:
+    st.markdown(">**1. Big Data Analytics com R e Microsoft Azure ML**")
+    image1 = Image.open('Cert_R.png')
+    st.image(image1,width=width)
+with col2:
+    st.markdown(">**2. Big Data Real-Time Analytics com Python e Spark**")
+    image1 = Image.open('Cert_Python_Spark.png')
+    st.image(image1,width=width)
+    
+with col3:
+    st.markdown(">**3. Engenharia de Dados com Hadoop e Spark**")
+    image1 = Image.open('Cert_Haddop.png')
+    st.image(image1,width=width)
+    
+col4, col5, col6  = st.columns(3)
+width=230
+with col4:
+    st.markdown(">**4. Machine Learning**                             ")
+    st.text("")
+    image1 = Image.open('Cert_ML.png')
+    st.image(image1,width=width)
+with col5:
+    st.markdown(">**5. Business Analytics**                            ")
+    st.text("")
+    image1 = Image.open('Cert_Business.png')
+    st.image(image1,width=width)
+    
+with col6:
+    st.markdown(">**6. Visualização de dados e Design de Dashboards**")
+    image1 = Image.open('Cert_Dataviz.png')
+    st.image(image1,width=width)
 
 st.markdown("----------------")   
 st.markdown("**SQL Para Data Science**")
@@ -144,10 +182,4 @@ st.markdown("----------------")
 st.markdown("**Introdução à Ciência de Dados**")
 image1 = Image.open('Cert_Intro_CD.png')
 st.image(image1,width=500)
-st.markdown("----------------") 
-
-
-
-
-
-
+st.markdown("----------------")   
