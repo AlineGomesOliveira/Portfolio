@@ -9,14 +9,24 @@ st.set_page_config(
 
 st.write('### **Como me encontrar:**')
 
-components.html("""<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="aaline-gomes-563408169" data-version="v1"><a class="badge-base__link LI-simple-link" href="hhttps://www.linkedin.com/in/aline-gomes-563408169/?trk=profile-badge"></a></div>""",height=250)
+# Badge do LinkedIn (corrigido)
+components.html("""
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<div class="badge-base LI-profile-badge" 
+     data-locale="en_US" 
+     data-size="medium" 
+     data-theme="light" 
+     data-type="VERTICAL" 
+     data-vanity="aline-gomes-563408169" 
+     data-version="v1">
+  <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/aline-gomes-563408169/?trk=profile-badge">
+  </a>
+</div>
+""", height=250)
 
-
-
+# Contatos
 st.write('📧:  **linegomes1509@gmail.com**')
-#st.write('📱: **+559299502-1056**')
-st.write('LinkedIn:  https://www.linkedin.com/in/aline-gomes-563408169/?locale=pt_BR')
+# st.write('📱: **+559299502-1056**')  # Descomente se quiser exibir o telefone
 st.write('GitHub:  https://github.com/AlineGomesOliveira')
 
 
