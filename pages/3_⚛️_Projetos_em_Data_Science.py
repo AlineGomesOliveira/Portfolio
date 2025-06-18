@@ -29,7 +29,7 @@ with st.container():
 
     st.markdown("**Resumo:** " )
     st.markdown("> 📌 Neste projeto existiram 2 objetivos principais:")
-    st.markdown("> 1️⃣ O 1º objetivo foi aplicar conceitos de Ciência de Dados para analisar um dataset com avaliações de filmes feitas por usuários (MovieLens dataset), investigando padrões de nota com relação a gênero, ano de lançamento e número de avaliações.")
+    st.markdown("> O 1º objetivo foi aplicar conceitos de Ciência de Dados para analisar um dataset com avaliações de filmes feitas por usuários (MovieLens dataset), investigando padrões de nota com relação a gênero, ano de lançamento e número de avaliações.")
     st.markdown("> 0 2º objetivo foi criar modelos de Machine Learning para Prever de Consumo de Combustível. Para esta previsão foi usado um modelo de Regressão(Benchmark), um modelo SVM e um modelo SVM com otimização de parâmetros através da biblioteca Python SciKit-learn.")
     st.markdown("> As métricas usadas foram Coeficiente R2 e RMSE.") 
     st.markdown("> O objetivo foi alcançar um Coeficiente R2 de 70%.")
