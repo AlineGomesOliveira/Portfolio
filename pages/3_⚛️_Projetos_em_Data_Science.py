@@ -49,7 +49,7 @@ with st.container():
 
     with col11:
 
-        image = Image.open('Projeto03.png')
+        image = Image.open('Projeto02.png')
         st.image(image,width=350)
     
     col12 = st.columns(1)
