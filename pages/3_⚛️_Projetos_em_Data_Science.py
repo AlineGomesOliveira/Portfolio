@@ -45,7 +45,7 @@ with st.container():
 
     with col10:
         st.markdown("**2. Projeto com Feedback:**" )
-        st.markdown("### Projeto de Análise de Dados: Acidentes de Trânsito no Brasil.")
+        st.markdown("### Análise de Dados sobre Acidentes de Trânsito no Brasil com SparkSQL e Dashboards.")
 
     with col11:
 
@@ -61,8 +61,8 @@ with st.container():
         
     col13 = st.columns(1)
     
-    st.markdown("**Resumo:** " )
-    st.markdown("> Objetivo deste projeto foi responder 10 perguntas de negócios sobre transporte publico em Londres através de análise de dados usando os pacotes SparkSQL, PandaSQL, SQLAlchemy, MySql e Docker.")
+    st.markdown("**✅ Resumo do Projeto:** " )
+    st.markdown("> 📌 O objetivo deste projeto foi responder perguntas de negócio e construir modelos preditivos para detectar transações fraudulentas com base em um conjunto de dados anonimizado.")
     st.markdown("> Este foi um projeto desafiador pois foi desenvolvido no Linux Ubuntu 22.04, inicializado através de virtualização pelo Oracle VM VirtualBox que foi instalado em uma máquina com Windows 11.")
     st.markdown("> O projeto teve início baixando um dataset do Microsoft Excel do link https://data.world/makeovermonday/2018w51, no Linux Ubuntu, onde foi instalado o Anaconda Python.")
     st.markdown("> O dataset foi carregado através do pacote Pandas, que também foi usado para análise exploratória, em formato de dataframe.") 
