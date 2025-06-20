@@ -85,36 +85,6 @@ with st.container():
     st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/AlineGomesOliveira/Projeto_Analise_Acidentes_Transito_no_Brasil/blob/main/Projeto_Analise_Acidentes_Transito.ipynb")
   
 
-with st.container():
-
-    st.markdown("----------------")    
-    
-    col1, col2 = st.columns(2)
-
-    with col1:
-        
-        st.markdown("**1. Projeto com Feedback:**" )
-        st.markdown("### Machine Learning em Logística - Prevendo o Consumo de Energia de Carros Elétricos.")   
-
-
-    with col2:
-       
-        image = Image.open('Projeto01R.png')
-        st.image(image,width=350)
-
-    
-    col3 = st.columns(1)
-    
-    st.markdown("**Resumo:** ")
-    st.markdown("> Realizado desenvolvimento do projeto de previsão de Consumo de Energia de Carros Elétricos, utilizando diversos modelos de veículos e com o objetivo de atingir uma precisãode 80% pelo modelo de Regressão.")
-    st.markdown("> Na modelagem preditiva de Regressão, foram utilizados os algoritmos RegressãoLinear (Benchmark), Radom Forest e SVM (2 versões).")
-    st.markdown("> O Radom Forest também foi utilizado para Feature Selection.")
-    st.markdown("> Foram construídas 4 versões de modelos preditivos usando diferentes abordagens.")
-    st.markdown("> Na avaliação, o modelo que apresentou melhor performace foi o modelo de Benchmark (usando Regressão Linear) com Rsquared = 0.7945 e Residual standard error = 0.1173 que praticamente atingiu métrica definida no início do projeto(80%).")
-    st.markdown("O Dataset utilizado no projeto foi obtido em: https://data.mendeley.com/datasets/tb9yrptydn/2")
-    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Machine-Learning-em-Logistica-Prevendo-o-Consumo-de-Energia-de-Carros-Eletricos/blob/main/Projeto01V3_0-Consumo_Carros_Eletricos.R")
-    
-with st.container():
 
     st.markdown("----------------")
     
