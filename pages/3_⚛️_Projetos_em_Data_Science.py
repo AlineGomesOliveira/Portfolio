@@ -84,28 +84,6 @@ with st.container():
 
     st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/AlineGomesOliveira/Projeto_Analise_Acidentes_Transito_no_Brasil/blob/main/Projeto_Analise_Acidentes_Transito.ipynb")
   
-with st.container():
-
-    st.markdown("----------------") 
-    col4, col5 = st.columns(2)
-
-    with col4:
-        st.markdown("**2. Projeto com Feedback:**" )
-        st.markdown("### Machine Learning na Segurança do Trabalho Prevendo a Eficiência de Extintores de Incêndio.")
-
-    with col5:
-
-        image = Image.open('Projeto02r.png')
-        st.image(image,width=350)
-    
-    col6 = st.columns(1)
-    
-    st.markdown("**Resumo:** " )
-    st.markdown("> Criação de projeto de Machine Learning para segurança do trabalho “Prevendo a Eficiênciade Extintores de Incêndio” e com o objetivo da Classificação preditiva atingir 85% de acurácia.") 
-    st.markdown("> O projeto foi realizado de forma independente por 4 semanas para carregar, analisar, limpar, pré-processar, realizar a análises estatísticas e criar e avaliar os modelos de Machine Learning, utilizando linguagem R e seus pacotes readxl (para importar a fonte dedados em Excel), car (para geração de qqPlots), e1071 (para analisar Assimetria e Curtose), caTools (para divisão em de dados em treino e teste), pROC (para visualizar, suavizar e comparar as características de curvas ROC) e multiROC (para calcular métricas deSpecificity, Sensitivity e AUC).")
-    st.markdown("> Os algorítimos de Machine Learning utilizados neste projeto para criação dos modelos de Classificação foram: Regressão Logistica (Benchmark), KNN (2 versões), Naive Bayes (2 versões) e SVM (2 versões). Na avaliação dos modelos verificou-se que o modelo KNN V1 teve a maior acurácia (0.9312) e o maior AUC (0.9311), sendo este o escolhido para deploy pois obteve melhor desempenho em 2 das 3 métricas analisadas.")
-    st.markdown("O Dataset utilizado no projeto foi obtido em: https://www.muratkoklu.com/datasets/vtdhnd07.php")
-    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto02_V2_Eficiencia_Extintores_Incendio/blob/main/Projeto02V3_0-Eficiencia_Extintores_Incendio.R")
 
 with st.container():
 
