@@ -80,7 +80,7 @@ with st.container():
     st.markdown("> Já o MySQL é executado à partir de um container Docker. Ambos, devido à falta de suporte à KVM pelo VirtualBox, foram instalados via command line.")
     st.markdown("> As 10 pergutas de negócio foram respondidas usando querys pelo SparkSQL, que alimentaram gráficos plotados através do pacote Plotly. ")
     st.markdown("O guia para a instalação do Docker está aqui: https://github.com/EvandroCleto/Projeto03_V3_Analise_Risco_Transporte/blob/main/Guia_Instalacao_Docker_Linux.txt")
-    st.markdown("E o guia para instalação do container com o MySQL está aqui: https://github.com/EvandroCleto/Projeto03_V3_Analise_Risco_Transporte/blob/main/Guia_Instalacao_MySQL_Docker.txt")
+    st.markdown("E o guia para instalação do container com o MySQL está aqui: https://github.com/AlineGomesOliveira/Projeto_Analise_Acidentes_Transito_no_Brail/blob/main/Guia_Instalacao_MySQL_Docker.txt")
 
     st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto03_V3_Analise_Risco_Transporte/blob/main/Projeto03_V3_Risco_Transp.ipynb")
   
