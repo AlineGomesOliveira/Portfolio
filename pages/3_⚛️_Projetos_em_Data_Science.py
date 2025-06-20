@@ -65,14 +65,7 @@ with st.container():
     st.markdown("> 📌 O objetivo deste projeto foi responder perguntas de negócio sobre a segurança viária no Brasil, utilizando dados públicos de acidentes de trânsito. Através de análise exploratória de dados e visualização interativa, buscamos identificar padrões, comportamentos críticos e insights relevantes para auxiliar na prevenção e redução de acidentes.")
     st.markdown("> Este foi um projeto desafiador pois foi desenvolvido no Linux Ubuntu 22.04, inicializado através de virtualização pelo Oracle VM VirtualBox instalado em uma máquina com Windows 11..")
     
-    st.markdown("> - Python 3.11 com Anaconda  
-- Pandas e NumPy para análise exploratória  
-- Matplotlib e Seaborn para gráficos estatísticos  
-- Plotly para visualização interativa  
-- SQLAlchemy + MySQL para gerenciamento relacional dos dados  
-- PandaSQL para executar consultas SQL diretamente sobre DataFrames  
-- Docker para executar o MySQL em ambiente isolado  
-- Jupyter Notebook como ambiente de desenvolvimento  ")
+    st.markdown("> -   ")
     st.markdown("> O dataset foi carregado através do pacote Pandas, que também foi usado para análise exploratória, em formato de dataframe.") 
     st.markdown("> A biblioteca SQLAlchemy foi utilizada para criar uma tabela no SGBD MySQL, criar o dicionário de dados e popular esta tabela à partir do dataframe do Pandas ")
     st.markdown("> Para extração dos dados do MySQL foi usada a biblioteca PandaSQL e o SQLAlchemy como conector com Python.")
