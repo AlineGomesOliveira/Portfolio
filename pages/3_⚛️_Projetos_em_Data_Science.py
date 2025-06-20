@@ -78,7 +78,7 @@ st.markdown("""
 - PandaSQL para executar consultas SQL diretamente sobre DataFrames  
 - Docker para executar o MySQL em ambiente isolado  
 - Jupyter Notebook como ambiente de desenvolvimento  
-""")
+
     
     st.markdown("> O projeto teve início baixando um dataset do Microsoft Excel do link https://data.world/makeovermonday/2018w51, no Linux Ubuntu, onde foi instalado o Anaconda Python.")
     st.markdown("> O dataset foi carregado através do pacote Pandas, que também foi usado para análise exploratória, em formato de dataframe.") 
