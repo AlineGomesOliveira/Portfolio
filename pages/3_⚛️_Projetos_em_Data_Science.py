@@ -56,7 +56,7 @@ with st.container():
     
     st.markdown("**Arquitetura do Projeto:** " )
     
-    image = Image.open('Infra_Projeto.png')
+    image = Image.open('arquitetura_projet01.png')
     st.image(image,width=450)   
         
     col13 = st.columns(1)
