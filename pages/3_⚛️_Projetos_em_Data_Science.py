@@ -62,8 +62,8 @@ with st.container():
     col13 = st.columns(1)
     
     st.markdown("**✅ Resumo do Projeto:** " )
-    st.markdown("> 📌 O objetivo deste projeto foi responder perguntas de negócio e construir modelos preditivos para detectar transações fraudulentas com base em um conjunto de dados anonimizado.")
-    st.markdown("> Este foi um projeto desafiador pois foi desenvolvido no Linux Ubuntu 22.04, inicializado através de virtualização pelo Oracle VM VirtualBox que foi instalado em uma máquina com Windows 11.")
+    st.markdown("> 📌 O objetivo deste projeto foi responder perguntas de negócio sobre a segurança viária no Brasil, utilizando dados públicos de acidentes de trânsito. Através de análise exploratória de dados e visualização interativa, buscamos identificar padrões, comportamentos críticos e insights relevantes para auxiliar na prevenção e redução de acidentes.")
+    st.markdown("> Este foi um projeto desafiador pois foi desenvolvido no Linux Ubuntu 22.04, inicializado através de virtualização pelo Oracle VM VirtualBox instalado em uma máquina com Windows 11..")
     st.markdown("> O projeto teve início baixando um dataset do Microsoft Excel do link https://data.world/makeovermonday/2018w51, no Linux Ubuntu, onde foi instalado o Anaconda Python.")
     st.markdown("> O dataset foi carregado através do pacote Pandas, que também foi usado para análise exploratória, em formato de dataframe.") 
     st.markdown("> A biblioteca SQLAlchemy foi utilizada para criar uma tabela no SGBD MySQL, criar o dicionário de dados e popular esta tabela à partir do dataframe do Pandas ")
