@@ -88,28 +88,4 @@ with st.container():
 
     st.markdown("----------------")
     
-    col7, col8 = st.columns(2)
-
-    with col7:
-        st.markdown("**0. Projeto com Feedback:**" )
-        st.markdown("### Detecção de Fraudes no Tráfego de Cliques em Propagandas de Aplicações Mobile.")
-
-    with col8:
-
-        image = Image.open('Projeto00.jpg')
-        st.image(image,width=350)
     
-    col9 = st.columns(1)
-    
-    st.markdown("**Resumo:** " )
-    st.markdown("> Este é um projeto de Prevenção de Fraude e seu objetivo foi construir um modelo de aprendizado (classificação) de máquina para determinar se um clique em um site é fraudulento ou não.")
-    st.markdown("> Ele foi meu primeiro projeto independente em Ciência de Dados, onde me dediquei durante 1 mês para concluí-lo, utilizando meu tempo livre.")
-    st.markdown("> O projeto foi construído em Linguagem R para importar, extrair, limpar, analisar e visualizar os dados.") 
-    st.markdown("> Na análise dos dados, foi verificado que as classes da variável Target estavam desbalanceadas e foi necessário aplicar técnica de oversampling (ROSE) para seu balanceamento.")
-    st.markdown("> Já para criação dos modelos de Machine Learning foram usados os algorítimos C5.0, SVM e KNN.")
-    st.markdown("> Na avaliação das Confusions Matrix, foi verificado que os modelos C5.0 e SVM apresentaram performance semelhantes (acurácia de 0.8396 e 0.8408 respecitvamente) e ambos podem ser utilizados para previsões de possíveis fraudes com boa performance.")
-
-    st.markdown("O Dataset utilizado no projeto foi obtido em: https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data")
-    st.markdown("**Acesse o fonte do projeto aqui:** https://github.com/EvandroCleto/Projeto01_Deteccao_Fraudes_Trafego_Cliques/blob/main/Projeto01_Detec%C3%A7%C3%A3o_Fraudes_Trafego_Cliques.R")
-  
-    st.markdown("----------------")
